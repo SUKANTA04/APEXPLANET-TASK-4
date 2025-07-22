@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Task 4 Full Project</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>🌟 Welcome to my webpage</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#todo">To-Do List</a>
+      <a href="product.html">Product Page</a>
+      <a href="#contact">Contact Us</a>
+
+    </nav>
+  </header>
+
+  <section id="about" class="section about-section">
+    <h2>👋 About Me</h2>
+    <div class="about-content">
+      <img src="profile.jpeg" class="profile-pic" />
+      <div class="about-text">
+        <p>Hello! I'm <strong>Sukanta Das</strong>, a B.tech Computer Science & Engineering student with a strong academic foundation from Swami Vivekananda University, Barrackpore.I'm passionate about full-stack web development with hands-on experience in building several projects that demonstrate my technical skills and problem-solving mindset.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="portfolio" class="section">
+    <h2> Personal Portfolio</h2>
+    <img src="banner.jpeg" alt="Banner" class="banner"/>
+    <p>Hi! I'm <strong>Sukanta Das</strong>, a front-end developer who loves building beautiful websites.</p>
+    
+    <h3>🌟 Skills</h3>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>C, DSA, Java</li>
+      <li>React</li>
+    </ul>
+
+    <h3>💼 Featured Projects</h3>
+    <div class="portfolio-gallery">
+      <div>
+        <p> To-Do List with localStorage <br> E-commerce website </p>
+      </div>
+    </div>
+
+    <h3>📬 Contact</h3>
+    <p>Email: <a href="mailto:dass05716@gmail.com">dass05716@gmail.com</a></p>
+    <p>Phone No.: <a href="tel:+916295551355">+91 62955 51355</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/sukanta-das-5693432a4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Sukanta Das</a></p>
+  </section>
+
+  <section id="todo" class="section">
+    <h2>✅ To-Do List</h2>
+    <div class="todo-container">
+      <input type="text" id="taskInput" placeholder="Add your task..." />
+      <button onclick="addTask()">Add Task</button>
+      <ul id="taskList"></ul>
+    </div>
+  </section>
+
+  
+
+    
+<section id="contact" class="section contact-section">
+  <h2>📞 Contact Me</h2>
+  <form class="contact-form">
+    <label for="name">Name</label>
+    <input type="text" id="name" placeholder="Your full name" required />
+
+    <label for="email">Email</label>
+    <input type="email" id="email" placeholder="Your email address" required />
+
+    <label for="phone">Phone Number</label>
+    <input type="tel" id="phone" placeholder="Your phone number" required />
+
+    <label for="message">Feedback </label>
+    <textarea id="message" rows="5" placeholder="Share your feedback..." required></textarea>
+
+    <button type="submit">Submit</button>
+  </form>
+</section>
+
+
+  <footer>
+    <p>&copy; SUKANTA DAS | (+91) 6295551355 | email: dass05716@gmail.com</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
